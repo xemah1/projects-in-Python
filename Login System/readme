@@ -1,3 +1,5 @@
+All files must be kept in the same folder.
+
 Register: Account informations will be kept in a file. Can't register with username "admin". Can't register using an already existing username.
 
 Sign in: Can't sign in to a non-existent account. (obviously)

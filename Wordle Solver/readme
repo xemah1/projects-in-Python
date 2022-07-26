@@ -14,3 +14,5 @@ If I made a mistake that's unfortunate. I tried to see through every scenario bu
 
 -Same letter returning two yellow feedbacks may or may not cause problem.
 -Same letter returning one yellow and one gray feedback may or may not cause problem.
+
+Word list was taken from [cfreshman's gists](https://gist.github.com/cfreshman) and contains 13k words.

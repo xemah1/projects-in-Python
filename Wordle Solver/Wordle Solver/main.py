@@ -57,7 +57,7 @@ while counter < 5 :
                     for j in range(len(blackList)) :
                         if(greenList[i] == blackList[j]) :
                             wordList[k] = "0"
-        for i in range(len(yellowList)) :
+        for i in range(len(choice)) :
             if (feedback.split(None, 4)[i] == "y") :
                 if (len(word) == 5) :
                     if (word[i] == choice[i]) :

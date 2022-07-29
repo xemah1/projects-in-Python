@@ -1,0 +1,10 @@
+Minesweeper game.
+
+There was a bug happened once that the grid had no mines. When I tried to replicate it to debug the problem it never happened again.
+So zero mine "bug" may or may not happen again.
+
+Revealing the tiles that has no adjacent mine that are adjacent to each other caused the following problem.
+> RecursionError: maximum recursion depth exceeded while getting the str of an object
+So I made a quick fix to create the illusion of a successful revealing algorithm. (between lines 67 and 72)
+I left the recursion error causing algorithm in the code as comment. (between lines 56 and 67)
+That algorithm wasn't throwing recursion error when I first coded it. It definitely needs improvement.

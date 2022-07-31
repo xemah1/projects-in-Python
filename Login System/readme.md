@@ -1,4 +1,4 @@
-All files must be kept in the same folder.
+All files must be kept in the same folder. Run **main.py**
 
 
 #### Register:

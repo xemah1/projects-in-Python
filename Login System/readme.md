@@ -7,6 +7,7 @@ All files must be kept in the same folder.
 
 #### Sign in:
 - Can't sign in to a non-existent account. (obviously)
+- (v1.1) As of this version when signed in users can see their status, deposit and withdraw money and transfer money to an existing user.
 
 
 #### Signing in with username "admin":

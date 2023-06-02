@@ -5,7 +5,7 @@ bet = 100
 grid = []
 frequency = {}
 carpan,kazanc = 0,0
-for i in range(25) :
+for i in range(30) :
     grid.append(0)
 
 def uret(carpan,kazanc,bet) :

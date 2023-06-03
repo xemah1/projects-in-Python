@@ -6,3 +6,5 @@ As of v2.3 bonus game system is added with its own gimmick. Entering the bonus g
 > A few key values have been corrected for v2.3.1. No new file, just updated main v2.3.
 > 
 > Corrections have been made in mechanics when going into bonus game from default game. No new file, Just v2.3.2.
+
+As of v2.4 I believe development of Gates of Ankara has concluded with a realistic end result. Can't exactly calculate RTP percentage due to limitations of time and resource on my end. Estimated RTP value hopefully will be posted here within 2 bussiness days.

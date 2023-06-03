@@ -4,4 +4,5 @@ As of v2.2 main changes are calculations of probabilities and winnings. Total of
 
 As of v2.3 bonus game system is added with its own gimmick. Entering the bonus game from base game is possible but has a low chance. RTP percentage skyrocketed after bonus game. Further calculation tweaks have become mandatory.
 > A few key values have been corrected for v2.3.1. No new file, just updated main v2.3.
+> 
 > Corrections have been made in mechanics when going into bonus game from default game. No new file, Just v2.3.2.

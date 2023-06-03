@@ -149,12 +149,17 @@ while spin_sayisi != 0 :
     print("Son Durumda Kazanç:",kazanc*carpan,"Çarpan:",carpan)
     print("----------------------------------")
     spin_sayisi -= 1
-
+    
     if bonus_choice == "Y" or bonus_choice == "y" :
         if frequency[7] >= 3 :
             spin_sayisi += 2
+            print("Bonus Uzatma. 2 Spin Eklenmistir.")
+            time.sleep(1)
     elif frequency[7] >= 4 :
         bet /= 10
+        print("Bonus Oyuna girildi.")
+        bonus_choice = "y"
+        time.sleep(1)
         carpan_kat,spin_sayisi = bonus()
         banka_kazanc = 0
         banka_kazanc += kazanc

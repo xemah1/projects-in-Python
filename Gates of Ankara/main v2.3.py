@@ -46,7 +46,7 @@ while spin_sayisi != 0 :
     grid = []
     frequency = {}
     carpan,kazanc = 0,0
-    for i in range(25) :
+    for i in range(30) :
         grid.append(0)
 
 
@@ -109,13 +109,13 @@ while spin_sayisi != 0 :
             if grid[i] < 50 :
                 frequency[grid[i]] += 1
             elif grid[i] < 1750 :
-                carpan += (grid[i] - 1000)
+                carpan += (grid[i] - 1000)/10
                 grid[i] += 1000
         print("Çarpan yeni durum:",carpan)
 
         for i in range(6) :
             if frequency[i+1] >= 8 :
-                kazanc += (frequency[i+1]-8+i+1)*bet/10
+                kazanc += (frequency[i+1]-8+i+1)*bet
                 for k in range(len(grid)) :
                     if grid[k] == i+1 :
                         grid[k] = 0

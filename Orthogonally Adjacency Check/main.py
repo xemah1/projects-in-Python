@@ -56,6 +56,6 @@ for line in grid :
     print(line)
 
 print("Adjacency List:",max_adj)
-print("Maximum Number of Adjacent Blocks:",max(max_adj),"Starting at Row:",int(max_adj.index(max(max_adj)) / len(grid[0])) + 1,", Column:",max_adj.index(max(max_adj)) % len(grid[0]))
+print("Maximum Number of Adjacent Blocks:",max(max_adj),"Starting at Row:",int(max_adj.index(max(max_adj)) / len(grid[0])),", Column:",max_adj.index(max(max_adj)) % len(grid[0]))
 if max(max_adj) == 0 :
     print("There are no adjacent blocks that are more than one.")

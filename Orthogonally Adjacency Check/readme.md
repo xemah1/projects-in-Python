@@ -1,6 +1,6 @@
 ![image](https://github.com/xemah1/projects-in-Python/assets/92027277/4231f3db-a279-4270-97cc-d593dadd941f)
 
-This code checks for tiles as the image shows containing "A" to change them to "B".
+This code checks for tiles that are orthogonally adjacent to starting tile as the image shows containing "A" to change them to "B".
 
 Recursive functions were used.
 

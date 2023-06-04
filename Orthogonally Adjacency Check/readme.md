@@ -4,6 +4,6 @@ This code checks for tiles as the image shows containing "A" to change them to "
 
 Recursive functions were used.
 
-Helps locate the largest group of "A" generated randomly.
+Helps locate the largest group of "A" generated randomly. (10th line)
 
-Grid size can be changed to whatever you like. Can be a square or a rectangle.
+Grid size can be changed to whatever you like. Can be a square or a rectangle. (3rd line)
